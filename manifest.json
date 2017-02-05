@@ -12,5 +12,7 @@
             "all_frames": true
         }
     ],
-    "permissions": ["activeTab"]
+    "web_accessible_resources": [
+        "payload.js"
+    ]
 }
