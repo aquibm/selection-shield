@@ -1,9 +1,29 @@
-console.info(`[SELECTION SHIELD] Overriding selection requests from ${window.location}`);
+(function() {
+    console.info(`[SELECTION SHIELD] Overriding selection requests from ${window.location}`);
 
-window.getSelection = function() {
-    return {};
-}
+    const originalSelectionFunction = window.getSelection;
+    let modifiersPressed = [];
 
-document.getSelection = function() {
-    return {};
-}
+    window.addEventListener('keydown', (e) => {
+        if(e.metaKey || e.ctrlKey) {
+            modifiersPressed = [e.which, ...modifiersPressed];
+        }
+    });
+
+    window.addEventListener('keyup', (e) => {
+        modifiersPressed = modifiersPressed.filter((key) => {
+            return key !== e.which;
+        });
+    });
+
+    function getSelection() {
+        if(modifiersPressed.length) {
+            return originalSelectionFunction();
+        }
+
+        return {};
+    }
+
+    window.getSelection = getSelection;
+    document.getSelection = getSelection;
+})();
