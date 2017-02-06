@@ -1,0 +1,28 @@
+{
+  "name": "selection-shield",
+  "version": "0.0.1",
+  "description": "Block browsers from hooking into text selection events",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquibm/selection-shield.git"
+  },
+  "keywords": [
+    "selection",
+    "shield",
+    "chrome",
+    "extension"
+  ],
+  "author": "Aquib Master <aquibmaster@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aquibm/selection-shield/issues"
+  },
+  "homepage": "https://github.com/aquibm/selection-shield#readme",
+  "devDependencies": {
+    "ava": "^0.18.1"
+  }
+}
