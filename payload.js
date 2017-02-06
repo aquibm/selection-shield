@@ -16,7 +16,7 @@
         });
     });
 
-    window.getSelection = function() {
+    function getSelection() {
         if(modifiersPressed.length) {
             return originalSelectionFunction();
         }
@@ -24,11 +24,6 @@
         return {};
     }
 
-    document.getSelection = function() {
-        if(modifiersPressed.length) {
-            return originalSelectionFunction();
-        }
-
-        return {};
-    }
+    window.getSelection = getSelection;
+    document.getSelection = getSelection;
 })();
