@@ -4,7 +4,9 @@
   "description": "Block browsers from hooking into text selection events",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build": "node scripts/build",
+    "clean": "rimraf dist/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
   },
   "homepage": "https://github.com/aquibm/selection-shield#readme",
   "devDependencies": {
-    "ava": "^0.18.1"
+    "ava": "^0.18.1",
+    "bestzip": "^1.1.3",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4"
   }
 }
