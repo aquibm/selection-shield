@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "build": "node scripts/build"
+    "build": "node scripts/build",
+    "clean": "rimraf dist/"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "ava": "^0.18.1",
     "bestzip": "^1.1.3",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4"
   }
 }
