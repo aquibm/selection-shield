@@ -14,3 +14,7 @@ test:
   override:
     - yarn test
     - yarn run build
+
+general:
+  artifacts:
+    - 'dist/'
