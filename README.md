@@ -5,6 +5,7 @@
 </h1>
 
 [![CircleCI](https://circleci.com/gh/aquibm/selection-shield/tree/master.svg?style=svg)](https://circleci.com/gh/aquibm/selection-shield/tree/master)
+[![Code Climate](https://codeclimate.com/github/aquibm/selection-shield/badges/gpa.svg)](https://codeclimate.com/github/aquibm/selection-shield)
 
 > For people who like to select text while reading &mdash; A chrome extension to shield you from websites that launch pop-ups or trigger "functionality" when text is selected.
 
