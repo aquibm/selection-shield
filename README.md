@@ -4,7 +4,12 @@
     Selection Shield
 </h1>
 
+[![CircleCI](https://circleci.com/gh/aquibm/selection-shield/tree/master.svg?style=svg)](https://circleci.com/gh/aquibm/selection-shield/tree/master)
+
 > For people who like to select text while reading &mdash; A chrome extension to shield you from websites that launch pop-ups or trigger "functionality" when text is selected.
+
+## Installation
+[Get it from the chrome web store!](https://chrome.google.com/webstore/detail/selection-shield/ppjecdhnlceodmbejglchpgfokabfoco)
 
 ## Usage
 The extension will prevent websites from getting selection information by default, if you wish to purposefully trigger an interaction, simply select text while holding down the `command` or `ctrl` key.
