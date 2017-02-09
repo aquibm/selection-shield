@@ -1,6 +1,6 @@
 {
     "name": "selection-shield",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Block browsers from hooking into text selection events",
     "main": "index.js",
     "scripts": {
