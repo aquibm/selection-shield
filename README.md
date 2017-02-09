@@ -3,3 +3,19 @@
     <br>
     Selection Shield
 </h1>
+
+> For people who like to select text while reading &mdash; A chrome extension to shield you from websites that launch pop-ups or trigger "functionality" when text is selected.
+
+## Usage
+The extension will prevent websites from getting selection information by default, if you wish to purposefully trigger an interaction, simply select text while holding down the `command` or `ctrl` key.
+
+## Contributing
+Please open an issue to discuss your ideas before submitting a PR.
+
+#### Development Installation
+1. Install the [yarn package manager](https://yarnpkg.com/en/docs/install) if you haven't already.
+1. Fork & clone the project.
+1. Run `yarn install` in the project directory.
+1. Check 'Developer Mode' in `chrome://extensions`
+1. Click `Load unpacked extension...` and select the `src/` directory.
+1. You're all up and running :rocket:
