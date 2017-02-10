@@ -25,3 +25,6 @@ Please open an issue to discuss your ideas before submitting a PR.
 1. Check 'Developer Mode' in `chrome://extensions`
 1. Click `Load unpacked extension...` and select the `src/` directory.
 1. You're all up and running :rocket:
+
+## License
+[MIT](LICENSE.md)
